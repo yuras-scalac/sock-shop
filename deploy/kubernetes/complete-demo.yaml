@@ -12,7 +12,7 @@ metadata:
     name: carts
   namespace: sock-shop
 spec:
-  replicas: 5
+  replicas: 2
   selector:
     matchLabels:
       name: carts
